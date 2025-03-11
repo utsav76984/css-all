@@ -1,0 +1,59 @@
+*{
+
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.containar{
+    max-width: 1320px;
+    border: 1px solid rgb(14, 13, 13);
+     margin: 50px auto;
+     /* overflow-x: hidden; */
+     /* scroll-behavior: smooth; */
+     height: 200px;
+     display: flex;
+     
+}
+
+.slides{
+    width: 100%;
+    border: 1px solid blue;
+    height: 600px;
+    background-size: cover;
+    text-align: center;
+}
+
+
+.bg1{
+
+    background-image: url("one.jpg");
+}
+.bg2{
+
+    background-image: url("two.jpg");
+}
+.bg3{
+
+    background-image: url("three.jpg");
+}
+.bg4{
+
+    background-image: url("four.jpg");
+}
+
+.btns{
+
+    width: fit-content;
+    margin: auto;
+    display: flex;
+    gap: 5px;
+}
+
+.btns a{
+
+    padding: 10px;
+    border-radius: 50px;
+    border: solid rgb(33, 34, 31);
+    margin-top: 20px;
+}
